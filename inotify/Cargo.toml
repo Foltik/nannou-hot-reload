@@ -1,0 +1,21 @@
+[package]
+name = "nannou_hot_reload"
+version = "0.1.0"
+authors = ["Jack Foltz <jack@foltz.io>"]
+edition = "2018"
+
+[lib]
+name = "lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "bin"
+path = "src/main.rs"
+
+
+[dependencies]
+nannou = "0.13.1"
+libloading = "0.6"
+tempdir = "0.3.7"
+inotify = "0.8.2"
+rand = "0.7.3"

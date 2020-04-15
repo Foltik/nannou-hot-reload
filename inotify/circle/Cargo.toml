@@ -1,0 +1,12 @@
+[package]
+name = "circle"
+version = "0.1.0"
+authors = ["Jack Foltz <jack@foltz.io>"]
+edition = "2018"
+
+[lib]
+crate_type = ["dylib"]
+
+[dependencies]
+nannou = "0.13.1"
+nannou_hot_reload = { path = ".." }
